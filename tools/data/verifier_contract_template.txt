@@ -14,7 +14,7 @@ import "./interfaces/IVerifier.sol";
 /// @dev For a better understanding of the verifier algorithm please refer to the following papers:
 /// * Original Plonk Article: https://eprint.iacr.org/2019/953.pdf
 /// * Original LookUp Article: https://eprint.iacr.org/2020/315.pdf
-/// * Plonk for micro v1.1: https://github.com/ZKAmoeba-Micro/solidity_plonk_verifier/raw/recursive/bellman_vk_codegen_recursive/RecursivePlonkUnrolledForEthereum.pdf
+/// * Plonk for micro v1.1: https://github.com/tidalchain/solidity_plonk_verifier/raw/recursive/bellman_vk_codegen_recursive/RecursivePlonkUnrolledForEthereum.pdf
 /// The notation used in the code is the same as in the papers.
 /* solhint-enable max-line-length */
 contract Verifier is IVerifier {

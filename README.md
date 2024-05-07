@@ -24,7 +24,7 @@ See [LICENSE-MIT](LICENSE-MIT) for details.
 ## Official Links
 
 - [Website](https://www.zkamoeba.com/)
-- [GitHub](https://github.com/ZKAmoeba-Micro)
+- [GitHub](https://github.com/tidalchain)
 - [Twitter](https://twitter.com/zkamoeba)
 
 ## Disclaimer
