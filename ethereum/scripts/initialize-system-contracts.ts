@@ -70,7 +70,7 @@ async function main() {
           ).connect(provider);
       console.log(`Using deployer wallet: ${deployWallet.address}`);
 
-      const gasPrice = cmd.gasPrice ? parseUnits(cmd.gasPrice, "gwei") : (await provider.getGasPrice());
+      const gasPrice = cmd.gasPrice ? parseUnits(cmd.gasPrice, "gwei") : await provider.getGasPrice();
       console.log(`Using gas price: ${formatUnits(gasPrice, "gwei")} gwei`);
 
       const deployer = new Deployer({
