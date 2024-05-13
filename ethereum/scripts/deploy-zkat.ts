@@ -35,7 +35,8 @@ async function deployToken(): Promise<string> {
 
   const totalSupply = await token.totalSupply();
 
-  await token.approve(l1Bridge.address, totalSupply);
+  const appr = await token.approve(l1Bridge.address, totalSupply);
+  await appr.wait();
 
   const micro = deployer.microContract(wallet);
   const priorityTxMaxGasLimit = getNumberFromEnv("CONTRACTS_PRIORITY_TX_MAX_GAS_LIMIT");
