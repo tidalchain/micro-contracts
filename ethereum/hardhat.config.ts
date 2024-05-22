@@ -54,7 +54,7 @@ const localConfig = {
 };
 
 const contractDefs = {
-  calibration: testnetConfig,
+  testnet: testnetConfig,
   mainnet: prodConfig,
   test: testConfig,
   localhost: localConfig,
